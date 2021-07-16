@@ -298,7 +298,7 @@ player_death_sound.set_volume(0.15)
 powerup_images = {}
 powerup_images['shield'] = pygame.image.load(path.join(img_folder, 'shield_gold.png')).convert()
 powerup_images['gun'] = pygame.image.load(path.join(img_folder, 'bolt_gold.png')).convert()
-pygame.mixer.music.load(path.join(snd_folder, 'tgfcoder-FrozenJam-SeamlessLoop.ogg'))
+pygame.mixer.music.load(path.join(snd_folder, 'maxstack-through-space.ogg'))
 pygame.mixer.music.set_volume(0.05)
 
 # Sprite Groups           
